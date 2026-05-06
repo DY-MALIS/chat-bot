@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsx src/bot.ts",
+    "set-webhook": "tsx scripts/set-webhook.ts",
     "build": "tsc",
-    "start": "node dist/bot.js"
+    "start": "tsx src/bot.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

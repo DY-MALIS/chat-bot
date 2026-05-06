@@ -38,11 +38,11 @@ A small TypeScript Telegram chatbot for DGacademy. It runs as a simple long-poll
 
 The process must stay running for the bot to respond.
 
-For production, build and run the compiled JavaScript:
+For a long-running host like Render, use:
 
-```powershell
-npm run build
-npm start
+```text
+Build Command: bun install
+Start Command: bun run start
 ```
 
 ## Configuration
