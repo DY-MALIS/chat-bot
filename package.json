@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx src/bot.ts",
     "set-webhook": "tsx scripts/set-webhook.ts",
+    "delete-webhook": "tsx scripts/delete-webhook.ts",
     "build": "tsc",
     "start": "tsx src/bot.ts"
   },

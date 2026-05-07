@@ -45,6 +45,12 @@ Build Command: bun install
 Start Command: bun run start
 ```
 
+If you previously connected the bot to Vercel webhook mode, delete that webhook before using Render/local polling:
+
+```powershell
+bun run delete-webhook
+```
+
 ## Configuration
 
 | Variable | Description | Default |
